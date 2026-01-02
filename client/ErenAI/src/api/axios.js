@@ -1,8 +1,8 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000",
-  withCredentials: true, // 🔥 REQUIRED
+  baseURL: "https://eren-ai-assistant-1.onrender.com",
+  withCredentials: true,
 });
 
 export default api;
