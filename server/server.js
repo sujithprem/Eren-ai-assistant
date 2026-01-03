@@ -17,9 +17,9 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://your-vercel-app.vercel.app"
+      "https://eren-ai-assistant-eczs.vercel.app"
     ],
-    credentials: true,
+    credentials: true
   })
 );
 
